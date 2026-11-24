@@ -1,0 +1,9 @@
+# Campus time-of-day phases. The campus is NOT the same board all day.
+# Format: name,startTime,travelMultiplier,hurdleMultiplier,closed(;-separated),description
+# "closed" lists category names (ACADEMIC, HOSTEL, OUTDOOR, DINING, GATE) and/or location ids.
+# A closed location cannot be entered. Closures are chosen so the open campus stays connected
+# (this is verified by the self-test).
+MORNING,09:00,1.00,1.00,,Calm campus - every building is open.
+AFTERNOON,11:30,1.00,1.40,,Lunch crowds clog the paths - hurdles are far more likely.
+EVENING,14:00,1.00,1.00,LIBRARY;LT;CS_BLOCK;TIFAC_CORE;TSLAS;VENTURE_LAB,Library, lecture theatre, labs and blocks are locked for the day.
+NIGHT,16:00,1.25,1.20,LIBRARY;LT;CS_BLOCK;TIFAC_CORE;TSLAS;VENTURE_LAB;SWIMMING_POOL;SPORTS_COMPLEX,Dark paths are slower and the sports facilities are shut as well.

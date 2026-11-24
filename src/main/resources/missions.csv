@@ -1,0 +1,34 @@
+# Mission schedule (every player plays it on their own clock).
+# Each time slot opens 3 missions at DISTANT places, so nobody can do everything - choose!
+# Format: id,title,description,locationId,availableFrom,deadline,rewardPoints,type
+# type = NORMAL | SPECIAL (big reward)
+1,Morning Coffee Run,Grab coffee at the Central Canteen.,CANTEEN,09:05,09:20,40,NORMAL
+2,Submit Lab Report,Deliver the Java lab report.,CS_BLOCK,09:05,09:20,50,NORMAL
+3,Hostel Laundry Pickup,Collect your laundry at the PG hostel.,HOSTEL_PG,09:05,09:20,50,NORMAL
+4,Return Reference Book,Return the overdue Data Structures book.,LIBRARY,09:55,10:10,50,NORMAL
+5,Hall Council Vote,Cast your vote at Vyan Hall.,VYAN_HALL,09:55,10:10,50,NORMAL
+6,Swim Practice,Sign the attendance sheet at the pool.,SWIMMING_POOL,09:55,10:10,50,NORMAL
+7,Guest Lecture Keynote,A visiting speaker presents at the TSLAS block.,TSLAS,10:45,11:05,70,SPECIAL
+8,Open Air Rehearsal,Rehearse for cultural night.,OAT,10:45,11:00,60,NORMAL
+9,Club Meeting Snacks,Pick up pizzas for the robotics club.,FOOD_COURT,10:45,11:00,40,NORMAL
+10,Group Project Sync,Meet your team in the Lecture Theatre.,LT,11:35,11:50,50,NORMAL
+11,Hostel Mess Duty,Help set up the hall mess.,VARUNI_HALL,11:35,11:50,50,NORMAL
+12,Coach Meeting,Meet the coach at the Sports Complex.,SPORTS_COMPLEX,11:35,11:50,60,NORMAL
+13,Startup Pitch,Present at the Venture Lab.,VENTURE_LAB,12:25,12:40,60,NORMAL
+14,Gate Duty,Meet the guard at the Western Gate.,WESTERN_GATE,12:25,12:40,60,NORMAL
+15,Inter-College Cricket Final,Arrive at the Sports Complex for the toss.,SPORTS_COMPLEX,12:25,12:45,100,SPECIAL
+16,Workshop Project Review,Submit CAD drawings to the instructor.,MECHANICAL_WORKSHOP,13:15,13:30,50,NORMAL
+17,Staff Meeting Minutes,Drop the minutes at the Staff Quarters.,STAFF_QUARTERS,13:15,13:30,60,NORMAL
+18,Afternoon Chai,Chai with the study group.,CANTEEN,13:15,13:30,40,NORMAL
+19,Lunch Rush,Grab a table at the Street Cafe.,STREET_CAFE,14:05,14:20,40,NORMAL
+20,Hostel Check-in,Sign in at the PG hostel.,HOSTEL_PG,14:05,14:20,50,NORMAL
+21,Open Air Movie Night,Find a spot at the Open Air Theatre.,OAT,14:05,14:20,60,NORMAL
+22,Hackathon Finale,Attend the finale at the Main Auditorium.,MAIN_AUDI,14:55,15:10,50,NORMAL
+23,Key Handover,Hand over the keys at Ambaram Hall.,AMBARAM_HALL,14:55,15:10,60,NORMAL
+24,Midnight Snack,The Food Court is the last place still serving.,FOOD_COURT,14:55,15:10,50,NORMAL
+25,Gate Pass Check,Collect the late-pass at the Polytechnic Gate.,POLYTECHNIC_GATE,15:45,16:00,60,NORMAL
+26,Late Hostel Study,Study group at Varuni Hall.,VARUNI_HALL,15:45,16:00,50,NORMAL
+27,Night Canteen Feast,The big end-of-event feast at the Canteen.,CANTEEN,15:45,16:05,100,SPECIAL
+28,Hostel Night Roll-call,Be at Aditi Hall for roll-call.,ADITI_HALL,16:20,16:35,60,NORMAL
+29,Late Coffee,The cafe stays open for night owls.,STREET_CAFE,16:20,16:35,40,NORMAL
+30,Curfew Sign-out,Last sign-out at the PG hostel.,HOSTEL_PG,16:20,16:35,50,NORMAL

@@ -1,0 +1,27 @@
+# Hurdle question bank - add questions here, no code changes needed.
+# Format: category|question|optionA|optionB|optionC|optionD|correctOptionNumber(1-4)
+# Categories: JAVA, LOGIC, CAMPUS (campus-map questions are also generated live from the map graph)
+JAVA|Which OOP concept lets a subclass provide its own version of an inherited method?|Encapsulation|Method overriding (polymorphism)|Abstraction only|Method overloading|2
+JAVA|Which collection keeps insertion order and gives fast index lookups?|HashSet|ArrayList|HashMap|TreeSet|2
+JAVA|Which keyword prevents a class from being subclassed?|static|abstract|final|private|3
+JAVA|What does the JVM execute?|Source code|Bytecode|Machine-specific assembly only|HTML|2
+JAVA|Which interface must a class implement to be binary-serialized?|Comparable|Cloneable|Serializable|Runnable|3
+JAVA|Which Java feature gives platform independence?|Bytecode run by the JVM|Direct CPU assembly|Windows DLL files|Pointers|1
+JAVA|Which structure stores unique elements with no duplicates?|List|Set|Queue|Array|2
+JAVA|Which statement releases a JDBC Connection automatically?|try-with-resources|finally only|catch|throw|1
+JAVA|Which SQL object helps prevent SQL injection?|Statement|PreparedStatement|ResultSet|DriverManager|2
+JAVA|Which exception type must be declared or caught?|RuntimeException|Error|Checked exception|NullPointerException|3
+JAVA|An abstract class can...|Never have fields|Have both abstract and concrete methods|Be instantiated directly|Only have static methods|2
+JAVA|Which loop runs at least once?|for|while|do-while|for-each|3
+LOGIC|Next number in 2, 5, 10, 17, 26 ?|35|36|37|40|3
+LOGIC|Next number in 3, 6, 12, 24 ?|30|36|48|27|3
+LOGIC|Next number in 1, 1, 2, 3, 5, 8 ?|11|12|13|14|3
+LOGIC|If all hostels have rooms and Aditi is a hostel, then Aditi...|Has rooms|Has no rooms|Is a library|Is closed|1
+LOGIC|A walk takes 12 minutes at normal speed. How long at 1.5x speed?|6|8|9|10|2
+LOGIC|Which is the odd one out: Library, Canteen, Food Court, Street Cafe?|Library|Canteen|Food Court|Street Cafe|1
+LOGIC|What comes next: M, T, W, T, F, ... ?|S|M|T|W|1
+LOGIC|How many minutes between 10:45 and 11:20?|25|30|35|45|3
+CAMPUS|Which of these is a campus entrance?|Central Canteen|Western Gate|Swimming Pool|Library|2
+CAMPUS|Where would you go to swim?|Sports Complex field|Swimming Pool|Open Air Theatre|Cricket Field|2
+CAMPUS|Which place hosts open-air shows?|Open Air Theatre (OAT)|Mechanical Workshop|Central Library|Staff Quarters|1
+CAMPUS|Which location is a dining spot?|Food Court|Venture Lab|Lecture Theatre|TSLAS Block|1
